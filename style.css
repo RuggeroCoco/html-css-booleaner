@@ -2,12 +2,21 @@ body {
     margin: 0;
 }
 
+main {
+    padding: 20px 10px;
+}
+
+h1, p {
+    margin: 0;
+}
+
 .container-header {
     width: 100%;
     height: 100px;
     background-image: url(/assets/pattern.png);
-    background-size: 40%;
-    background-color: rgb(53, 53, 157);
+    background-size: 19%;
+    background-color: #3590F3;
+    position: relative;
 }
 
 .pattern {
@@ -17,6 +26,36 @@ body {
 
 .logo {
     width: 200px;
-    margin-top: 50px;
-    margin-left: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+
+.container-images {
+    display: inline;
+}
+
+.text-blue {
+    color: #62BFED;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.date {
+    margin-bottom: 20px;
+}
+
+.image-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.article {
+    font-size: 20px;
+}
+
+.text-yellow {
+    background-color: yellow;
 }
