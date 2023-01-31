@@ -59,3 +59,62 @@ h1, p {
 .text-yellow {
     background-color: yellow;
 }
+
+
+.article-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.content table {
+    border-spacing: 0;
+}
+
+.content table thead {
+    background-color: #20a9e5;
+    color: white;
+}
+.large-column {
+    width: 50%;
+}
+.odd-row {
+    background-color: #b1e5f2;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+
+.footer-title {
+    color: gray;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+    
+.articles-item {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+}
+
+#monitor {
+    background-image: url(/assets/monitor.jpg);
+}
+
+#graph {
+    background-image: url(/assets/graph.jpg);
+}
+
+.aticles-item a {
+    text-decoration: none;
+    color: white;
+}
